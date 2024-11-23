@@ -1,0 +1,25 @@
+table{
+    width: 200vh;
+    height: 60vh;
+}
+table, caption{
+    font-size:larger;
+    padding-bottom: 10px;
+}
+table, th, td{
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    padding: 5px;
+}
+tr>td:first-child{
+    font-style: oblique;
+}
+.first{
+    background-color:#c4a1a1;
+}
+.second{
+    background-color: #b3d0b3;
+}
+th {
+    background-color: #b0c9ca;
+}
