@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'forBlock2';
+    src: url('./MarkaziText-Bold.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'forBlock3';
+    src: url('./RobotoFlex-VariableFont_GRAD\,XOPQ\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}

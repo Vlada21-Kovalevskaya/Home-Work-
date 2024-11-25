@@ -1,0 +1,28 @@
+body{
+    background-color: #c6d6e36c;
+}
+.block-1{
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: italic;
+    width: 100%;
+    background-color: #24f4f441;
+    border: 2px solid;
+    border-color: blue;
+    text-align: center;
+    padding-top: 10%;
+}
+.block-2{
+    font-family: 'forBlock2';
+    background-color: #24c0f499;
+    border: 2px solid;
+    border-color: #006eff;
+     margin: 5em; 
+}
+.block-3{
+    font-family: 'forBlock3';
+    background-color: #0a92bfab;
+    border: 2px solid;
+    border-color: #0400ff;
+     margin: 5em; 
+}
