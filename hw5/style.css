@@ -1,0 +1,52 @@
+body {
+    counter-reset: section; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 5%;
+  }
+  
+  h3::before {
+    counter-increment: section; 
+    content: "Секция " counter(section) ": "; 
+    color: #4b4949;
+  }
+
+  ol {
+    counter-reset: section; 
+    list-style-type: none;
+  }
+  
+  ol>li::before {
+    counter-increment: section; 
+    content: counters(section, ".") " ";
+    color: #fdf9f9;
+    background-color: #d2691e;
+    border-radius: 50%;
+    padding: 0.2%;
+    font-size: x-small;
+  }
+  ol>li::after{
+    content: "**";
+    font-size: x-small;
+    margin: 5px;
+    padding: 0.5px;
+    color: #0000ff;
+    width: 0.5px;
+    height: 0.5px;
+    /* border-radius: 50%; */
+    background-color: #0000ff;
+  }
+ul{
+  list-style-type: none ;
+}
+  ul>li::before {
+    counter-increment: section; 
+    content: "**";
+    font-size: x-small;
+    margin: 5px;
+    padding: 0.5px;
+    color: #0077ff;
+    width: 0.5px;
+    height: 0.5px;
+    border-radius: 50%;
+    background-color: #0077ff;
+  }
